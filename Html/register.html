@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Css/style.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/cdcf9a028a.js" crossorigin="anonymous"></script>
+    <script defer src="/Js/javhead.js"></script>
+    <script defer src="/Js/java.js"></script>
+    <title>Register Page</title>
+</head>
+<header>
+    <nav class="navbar">
+        <h1>HI-TOYZ</h1>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="home.html">Home</a></li>
+            <li class="nav-item"><a href="product.html">Products</a></li>
+            <li class="nav-item"><a href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a href="contact us.html">Contact Us</a></li>
+            <li class="nav-item"><a href="register.html" class="active">Register</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <div class="kontener">
+        <div class="form-box">
+            <h1>Register</h1>
+            <form id="registrationForm">
+                <div class="input-group">
+                    <div class="input-field" id="nama">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="name" id="nameInput">
+                        <span id="nameError" class="error"></span>
+                    </div>
+                    <div class="input-field" id="gmail">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="email" id="emailInput">
+                        <span id="emailError" class="error"></span>
+                    </div>
+                    <div class="input-field" id="pass">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" placeholder="password" id="passwordInput">
+                        <span id="passwordError" class="error"></span>
+                    </div>
+                    <div class="input-field" id="cal">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <input type="date" placeholder="date" id="dobInput">
+                        <span id="dobError" class="error"></span>
+                    </div>
+                    <div class="input-field" id="check">
+                        <p>Term & Condition</p>
+                        <input type="checkbox" id="agreementCheckbox">
+                        <span id="agreementError" class="error"></span>
+                    </div>
+                </div>
+                <div class="btn">
+                    <button type="button" id="regist">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
