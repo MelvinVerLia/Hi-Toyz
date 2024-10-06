@@ -390,7 +390,7 @@ footer {
     height: 92vh;
     align-items: center;
     justify-content: center;
-    background-image: url(/Assets/weak.jpg);
+    background-image: url(../Assets/weak.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -623,7 +623,7 @@ input {
     .box {
         height: 300px;
         padding: 20px;
-        background-image: url(weak.jpg);
+        background-image: url(../Assets/weak.jpg);
         background-repeat: no-repeat;
         background-position: bottom;
         background-size: cover;
